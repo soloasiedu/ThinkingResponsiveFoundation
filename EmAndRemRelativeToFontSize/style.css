@@ -8,11 +8,54 @@ header {
     background-color: #000053;
     height: 170px;
 }
+header h1 {
+    font-size: 40px;
+    color: white;
+}
 
 .container{
-    padding: 50px 25% 50px 25%;
+    padding: 50px 20% 50px 20%;
+}
+.section-one {
+    height: 340px;
+}
+.section-one h2{
+    margin-bottom: 20px;
+
+}
+.section-one ul{
+    margin-left: 50px;
 }
 .section-two{
     background-color: #000053;
-    height: 250px;
+    height: 350px;
 }
+h2{
+    font-size: 25px;
+    color: orange;
+}
+.section-two h2{
+    margin-bottom: 20px;
+}
+.section-two p{
+    color: white;
+    margin-bottom: 30px;
+}
+.section-two .btn{
+    width: 80px;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.section-two .btn-accent{
+    color: white;
+    background-color: red;
+    margin-right: 15px;
+}
+.section-two .btn-white{
+    color: black;
+    background-color: white;
+}
+
