@@ -1,0 +1,90 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #000053;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.header p{
+    color: white;
+    font-size: 40px;
+}
+.section {
+    width: 82%;
+    max-width: 800px;
+    /* min-width: 500px; */
+    /* border: 1px solid greenyellow; */
+    margin: 45px auto;
+    padding: 30px;
+}
+.section h3 {
+    color: orange;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+} 
+.section p{
+    margin-bottom: 20px;
+}
+
+.section img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.section a{
+    color: orange;
+}
+
+.footer {
+    background-color: #000053;
+    height: 250px;
+    /* padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px; */
+    padding: 50px 10% 30px 10%;
+}
+.footer h3{
+    color: orange;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.footer a {
+    color: orange;
+}
+.footer b{
+    color: white;
+
+}
+.btn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+.redbackground {
+    background-color: red;
+    color: white;
+    margin-right: 15px;
+}
+.whitebackground {
+    background-color: white;
+    color: black;
+}
+
+
