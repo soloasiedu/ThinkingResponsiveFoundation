@@ -5,8 +5,30 @@
 }
 
 .container{
-    background-color: orchid;
+    background-color: rgb(238, 153, 235);
     width: 60%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
+    padding: 50px 20px;
 }
+
+.container img{
+    width: 98%;
+    height: 150px;
+    padding: 0;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} */
