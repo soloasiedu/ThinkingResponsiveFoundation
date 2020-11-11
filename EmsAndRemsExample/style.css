@@ -34,4 +34,10 @@ a{
 .button:hover{
     background-color: orange;
 }
+.btn-big {
+    font-size: 1.5rem;
+}
+.btn-small {
+    font-size: .7rem;
+}
 
