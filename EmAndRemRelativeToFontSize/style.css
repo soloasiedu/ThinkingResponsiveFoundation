@@ -1,0 +1,18 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #000053;
+    height: 170px;
+}
+
+.container{
+    padding: 50px 25% 50px 25%;
+}
+.section-two{
+    background-color: #000053;
+    height: 250px;
+}
