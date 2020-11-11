@@ -6,8 +6,9 @@
 }
 
 .card {
-    width: 600px;
-    height: 280px;
+    width: 60%;
+    height: 350px;
+    min-width: 450px;
     background-color: black;
     margin: 100px auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
