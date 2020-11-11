@@ -30,14 +30,17 @@ header h1 {
     margin-left: 50px;
 }
 ul {
-    font-size: 1.2em;
+    font-size: 1rem;
+}
+li{
+    font-size: 1.2rem;
 }
 .section-two{
     background-color: #000053;
     height: 350px;
 }
 h2{
-    font-size: 1.8em;
+    font-size: 1.8rem;
     color: orange;
 }
 .section-two h2{
