@@ -9,15 +9,18 @@ header {
     height: 170px;
 }
 header h1 {
-    font-size: 40px;
+    font-size: 2em;
     color: white;
 }
 
 .container{
+    width: 80%;
+    margin: 0 auto;
     padding: 50px 20% 50px 20%;
 }
 .section-one {
     height: 340px;
+    /* font-size: 40px; */
 }
 .section-one h2{
     margin-bottom: 20px;
@@ -26,12 +29,15 @@ header h1 {
 .section-one ul{
     margin-left: 50px;
 }
+ul {
+    font-size: 1.2em;
+}
 .section-two{
     background-color: #000053;
     height: 350px;
 }
 h2{
-    font-size: 25px;
+    font-size: 1.8em;
     color: orange;
 }
 .section-two h2{
