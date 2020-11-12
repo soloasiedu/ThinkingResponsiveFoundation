@@ -1,0 +1,50 @@
+/* body{
+    background: #F8f8f8;
+}
+header {
+    width: 60%;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+
+}
+.nav-links{
+    display: inline-block;
+
+}
+.nav-links li{
+    display: inline;
+    margin: 1.2em;
+    text-align: center;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707070;
+}
+.tagsupport{
+    text-align: center;
+    margin: 0 auto;
+}
+.tagline h1{
+    font-size: 3.375rem;
+    color: purple;
+    margin-bottom: 2px;
+    
+}
+.tagline p {
+    text-transform: uppercase;
+    color: lightblue;
+    margin-top: 0;
+    font-size: 1rem;
+    
+}
+@media (max-width: 700px){
+    nav {
+        width: 80%;
+        
+    
+    }
+} */

@@ -1,5 +1,5 @@
 body{
-    background: #f1f0f0;
+    background: #F8f8f8;
 }
 nav {
     width: 80%;
@@ -21,18 +21,19 @@ nav {
 .nav-links li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: burlywood;
+    color: #707070;
+    font-size: 1rem;
 }
 .tagline h2{
-    font-size: 1.8rem;
-    color: purple;
+    font-size: 3.375rem;
+    color: #143774;
     margin-bottom: 2px;
 }
 .tagline p {
     text-transform: uppercase;
-    color: lightblue;
+    color: #1792D2;
     margin-top: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 @media (max-width: 840px){
     
