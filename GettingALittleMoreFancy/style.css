@@ -5,6 +5,13 @@
 body{
     font-size: 1.125rem;
     color: #707070;
+    background: pink;
+}
+
+@media (min-width: 500px){
+    body{
+        background:purple;
+    }
 }
 
 h1 {
