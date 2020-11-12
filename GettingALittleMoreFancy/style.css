@@ -8,11 +8,18 @@ body{
     background: pink;
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) and (max-width: 800px){
+    body{
+        background: purple;
+    }
+}
+/* @media (min-width: 500px){
     body{
         background:purple;
     }
-}
+} */
+
+
 
 h1 {
     font-size: 2rem;
