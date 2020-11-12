@@ -37,24 +37,24 @@ nav {
 @media (max-width: 840px){
     
     .nav-links li{
-        margin: 0.1em;
+        margin: 0.2em;
     }
     
 }
-
 @media (max-width: 650px){
     nav {
         flex-direction: column;
         align-items: center;
     }
     .nav-links{
-        display: block;
         text-align: center;
     
     }
     .nav-links li{
         display: block;
+        margin: 1.8em;
     }
     
 }
+
 
