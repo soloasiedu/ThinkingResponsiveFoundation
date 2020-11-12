@@ -5,14 +5,14 @@
 body{
     font-size: 1.125rem;
     color: #707070;
-    background: pink;
+    /* background: pink; */
 }
 
-@media (min-width: 500px) and (max-width: 800px){
+/* @media (min-width: 500px) and (max-width: 800px){
     body{
         background: purple;
     }
-}
+} */
 /* @media (min-width: 500px) and (orientation: landscape){
     body{
         background: orange;
