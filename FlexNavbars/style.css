@@ -8,3 +8,17 @@ nav {
     margin: 100px auto;
 
 }
+.nav-links{
+    display: inline-block;
+
+}
+.nav-links li{
+    display: inline;
+    margin: 1.8em;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: burlywood;
+}
