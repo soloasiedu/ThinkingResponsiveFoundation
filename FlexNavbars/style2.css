@@ -48,3 +48,25 @@ header {
     
     }
 } */
+header{
+    text-align: center;
+}
+
+nav ul{
+    /* border: 1px solid magenta; */
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* width: 350px; */
+}
+nav li {
+    /* border: 1px solid orange; */
+    margin: 0 1em;
+}
+nav a {
+    /* border: 1px solid green; */
+}
+nav a:hover{
+
+}
