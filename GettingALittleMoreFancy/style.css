@@ -13,11 +13,11 @@ body{
         background: purple;
     }
 }
-@media (min-width: 500px) and (orientation: landscape){
+/* @media (min-width: 500px) and (orientation: landscape){
     body{
         background: orange;
     }
-}
+} */
 /* @media (min-width: 500px){
     body{
         background:purple;
