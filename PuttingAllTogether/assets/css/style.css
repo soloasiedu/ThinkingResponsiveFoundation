@@ -205,6 +205,10 @@ footer {
     background-color: #143774;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     
 }
 footer .footer-container{
