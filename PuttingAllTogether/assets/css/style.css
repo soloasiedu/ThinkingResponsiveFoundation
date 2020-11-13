@@ -1,6 +1,8 @@
 body{
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /*  ======================
@@ -8,11 +10,12 @@ body{
     ======================
 */
 
-
-h1{
+h1, h2, h3{
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+h1{
     font-size: 2rem;
     margin: 0;
 }
@@ -24,6 +27,17 @@ h1{
     text-transform: uppercase;
     width: 100%;
     
+}
+.aritcle-title{
+    font-size: 1.5rem;
+}
+.article-read-more, .article-info{
+    font-size: 0.875rem;
+}
+.article-read-more{
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .container{
@@ -97,15 +111,30 @@ nav a:hover, nav a:focus{
     
     
 }
+
+.container-body{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+}
+main{
+    width: 80%;
+}
+.sidebar{
+    width: 20%;
+}
+
+
+
 footer {
     background-color: #143774;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     
 }
 footer .footer-container{
     width: 200px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 footer p {
