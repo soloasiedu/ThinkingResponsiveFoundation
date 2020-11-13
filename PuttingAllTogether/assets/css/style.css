@@ -28,6 +28,7 @@ a{
 hr{
     width: 100%;
     margin-top: 20px;
+    color: #f8f8f8;
 }
 a:hover, a:focus{
     color: #143774;
@@ -138,12 +139,34 @@ nav a:hover, nav a:focus{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 main{
     width: 75%;
 }
 aside{
     width: 20%;
+    min-width: 138px;
+    display: flex;
+    background-color: #EBEBEB;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-widget{
+   width: 70%;
+   margin: 10% auto;
+   background-color: #ffffff;
+   padding: 15px;
+}
+
+.sidebar-widget-1{
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+.sidebar-widget-1{
+    min-height: 400px;
+    /* background-color: #ffffff; */
 }
 .article-featured{
     margin-bottom: 50px;
@@ -151,10 +174,13 @@ aside{
 .article-image{
     height: 150px;
 }
-.article-featured .article-image{
+/* .article-featured .article-image{
     width: 100%;
     height: 300px;
-}
+} */
+/* .widget-recent-post .widget-image{
+    width: 100%;
+} */
 
 .article-recent{
     display: flex;
@@ -197,4 +223,35 @@ footer .firstp {
 }
 footer .secondp{
     font: normal normal 300 18px/28px Ubuntu;
+}
+@media (max-width: 675px){
+    .container-body{
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        width: 90%;
+    }
+    aside{
+        width: 60%;
+        
+    }
+    .article-recent{
+        display: flex;
+        flex-direction: column;     
+        justify-content: space-between;
+        align-items: center;
+        /* width: 100%;
+        margin: 50px 0 50px 0; */
+    }
+    .article-recent-main{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .article-recent-secondary{
+        width: 90%;
+    }
+    
+    
+    
 }
