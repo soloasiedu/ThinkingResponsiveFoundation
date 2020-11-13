@@ -4,7 +4,10 @@ body{
     font-size: 1.125rem;
     font-weight: 300;
 }
-
+img{
+    max-width: 100%;
+    display: block;
+}
 /*  ======================
     Typography
     ======================
@@ -18,6 +21,15 @@ h1, h2, h3{
 h1{
     font-size: 2rem;
     margin: 0;
+}
+a{
+    color: #1792d2;
+}
+a:hover, a:focus{
+    color: #143774;
+}
+strong{
+    font-weight: 700;
 }
 .subtitle{
     font-weight: 700;
@@ -38,6 +50,7 @@ h1{
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .article-read-more:hover,.article-read-more:focus
 {
@@ -123,11 +136,16 @@ nav a:hover, nav a:focus{
     justify-content: space-between;
 }
 main{
-    width: 76%;
+    width: 75%;
 }
-.sidebar{
-    width: 18%;
+aside{
+    width: 20%;
 }
+
+/* .article-image{
+    width: 100%;
+    height: 300px;
+} */
 
 
 
