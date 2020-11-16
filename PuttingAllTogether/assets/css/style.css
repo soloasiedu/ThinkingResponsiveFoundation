@@ -174,6 +174,9 @@ aside{
 .article-image{
     height: 150px;
 }
+.about-me-image{
+    height: 300px;
+}
 /* .article-featured .article-image{
     width: 100%;
     height: 300px;
@@ -254,8 +257,6 @@ footer .secondp{
     }
     .article-recent-secondary{
         width: 90%;
-    }
-    
-    
-    
+    }  
 }
+
