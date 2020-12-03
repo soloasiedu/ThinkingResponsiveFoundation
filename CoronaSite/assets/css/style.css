@@ -1,4 +1,124 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
+.container-nav{
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: grey; */
+    
+}
+
+.container-nav .tagline{
+}
+.container-nav nav{
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin-left: 2em;
+}
+nav a{
+    text-decoration: none;
+}
+.current-page{
+    color: orange;
+}
+
+.stay-safe{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.stay-safe .description{
+    width: 40%;
+    align-self: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.stay-safe .pictorial{
+    width: 40%;
+}
+.stay-safe .pictorial .pictorial-image{
+    width: 100%;    
+    /* height: auto; */
+}
+.big-text-description{
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+.big-text-description .para{
+    font-size: 50px;
+    color: black;
+}
+.big-text-description span{
+    font-size: 30px;
+    color: orange;
+}
+.description p{
+    color: #777777;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 2.8ch;
+}
+.btn-lm{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 785px){
+    .container-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .tagline{
+        align-self: center;
+        margin-bottom: 15px;
+    }
+    /* nav ul{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+    nav li{
+        margin-top: 10px;
+    } */
+    .stay-safe{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .stay-safe .description{
+        width: 80%;
+        align-self: center;
+        text-align: center;
+        margin-bottom: 60px;
+        order: 2;
+    }
+    .stay-safe .pictorial{
+        width: 80%;
+        align-self: center;
+        order: 1;
+    }
+}
