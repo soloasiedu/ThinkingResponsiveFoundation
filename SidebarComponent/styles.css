@@ -16,6 +16,9 @@
 
 
 }
+.sidebar > .sidebar_logo h1{
+    color: rgb(202, 206, 209);
+}
 .sidebar > .sidebar_nav{
     flex-shrink: 1;
     padding: 0;
@@ -28,6 +31,7 @@ ul li{
 }
 ul li:hover{
     background-color: rgb(240, 240, 240);
+    color: pink;
 }
 ul li span{
     padding-left: 10px;
