@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .container-nav{
     display: flex;
     flex-direction: row;
@@ -41,4 +42,49 @@
     .container-nav > li:hover{
         background-color: rgb(23, 36, 53);
     }
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90vh;
+}
+.main > .left-sidebar{
+    width: 20%;
+    padding: 2%;
+}
+.main > .left-sidebar h1{
+    text-align: right;
+    margin-bottom: 15px;
+}
+.main > .left-sidebar p{
+    text-align: left;
+}
+.main > .content{
+    width: 50%;
+    padding: 2%;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.main > .content p{
+    margin-bottom: 20px;
+}
+.main > .right-sidebar{
+    width: 20%;
+    padding: 2%;
+}
+.main > .right-sidebar h1{
+    text-align: right;
+    margin-bottom: 15px;
+
+}
+.main > .right-sidebar p{
+    text-align: left;
+}
+footer{
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
