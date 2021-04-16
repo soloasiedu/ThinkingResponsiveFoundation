@@ -48,7 +48,7 @@
     flex-direction: row;
     justify-content: space-between;
     border: 2px solid rgb(65, 54, 54);
-    height: 800px;
+    /* height: 800px; */
   
 }
 .main > .left-sidebar{
@@ -90,4 +90,36 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+}
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .main > .left-sidebar{
+        width: 80%;
+    }
+    .main > .left-sidebar h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .main > .left-sidebar p{
+        text-align: center;
+    }
+    .main > .right-sidebar{
+        width: 80%;
+    }
+    .main > .right-sidebar h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .main > .right-sidebar p{
+        text-align: center;
+    }
+    .main > .content{
+        width: 80%;
+        padding: 2%;
+        border: none;
+    }
 }
