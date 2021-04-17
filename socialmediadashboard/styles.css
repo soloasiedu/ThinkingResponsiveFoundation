@@ -7,11 +7,18 @@
     /* border: 1px solid black; */
 }
 .sidebar{
+    height: 100%;
+    /* width: 160px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* overflow-x: hidden; */
     width: 15%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: whitesmoke;
     padding: 20px;
     /* border: 1px solid black; */
@@ -66,7 +73,9 @@
 .sidebar > .sidebar-community ul li{
     height: 30px;
     
+    
 }
+
 .sidebar > .sidebar-community ul a{
     text-decoration: none;
     padding-left: 10px;
@@ -76,7 +85,68 @@
     width: 65%;
     /* border: 1px solid black; */
     padding: 20px;
+    margin-left: 260px;
 
+}
+.main-content > .search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+.main-content > .search > span{
+    /* border: 1px solid blue; */
+    width: 50%;
+    position: relative;
+}
+.main-content > .search > span > input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+
+}
+.main-content > .search > span > .fa-search{
+    position: absolute;
+    right: 1px;
+    top: 5px;
+}
+.img-grid{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.img-grid > .four-img-section{
+    width: 55%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img-grid > .four-img-section div{
+    width: 45%;
+    /* border: 1px solid blue; */
+}
+.img-grid > .four-img-section div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-grid > .lg-img-section{
+    width: 35%;
+    /* border: 1px solid blue; */
+    align-self: stretch;
+}
+.img-grid > .lg-img-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-content{
+    padding: 30px;
+}
+.text-content p{
+    margin-bottom: 20px;
 }
 .rightside{
     width: 20%;
