@@ -14,13 +14,14 @@
     top: 0;
     left: 0;
     /* overflow-x: hidden; */
-    width: 15%;
+    flex-basis: 15%;
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: whitesmoke;
     padding: 20px;
+    flex-grow: 0;
     /* border: 1px solid black; */
  
 }
@@ -82,10 +83,12 @@
     color: black;
 }
 .main-content{
-    width: 65%;
+    flex-basis: 65%;
     /* border: 1px solid black; */
     padding: 20px;
-    margin-left: 260px;
+    margin-left: 245px;
+    margin-right: 200px;
+    flex-shrink: 0;
 
 }
 .main-content > .search{
@@ -149,10 +152,14 @@
     margin-bottom: 20px;
 }
 .rightside{
-    width: 20%;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-basis: 20%;
+    /* height: 100vh; */
     padding: 20px;
     /* border: 1px solid black; */
+    flex-grow: 0;
 
 
 }
